@@ -1,3 +1,6 @@
 [submodule "environment"]
 	path = environment
 	url = https://github.com/NeuralMMO/environment.git
+[submodule "baselines"]
+	path = baselines
+	url = https://github.com/NeuralMMO/baselines.git
