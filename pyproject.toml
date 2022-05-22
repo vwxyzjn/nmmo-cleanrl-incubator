@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "nmmo-cleanrl-incubator"
+version = "0.1.0"
+description = ""
+authors = ["Costa Huang <costa.huang@outlook.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+wandb = "^0.12.16"
+SuperSuit = "3.3.5"
+gym = "^0.23.1"
+tensorboard = "^2.9.0"
+torch = "^1.11.0"
+nmmo = {path = "environment", develop = true}
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
